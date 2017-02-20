@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:layout_marginTop="20dip"
+        android:text="Sleep time in seconds:"/>
+
+    <EditText
+        android:id="@+id/enter_seconds"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:inputType="phone"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message" />
+
+    <Button
+        android:text="Run Async task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Enter your text here"
+        android:ems="10"
+        android:id="@+id/enter_text" />
+
+
+</LinearLayout>
